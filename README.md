@@ -28,4 +28,29 @@ SOC Operations | Blue Team | Threat Detection
 ## Features Explored
 | Feature | Description |
 |---------|-------------|
-| Log Monitoring | Real-time
+| Log Monitoring | Real-time system and security log collection |
+| Intrusion Detection | Alerts on suspicious activity |
+| File Integrity Monitoring | Detects unauthorized file changes |
+| Vulnerability Detection | Identifies known CVEs on endpoints |
+| Dashboard | Visual alert investigation via Wazuh UI |
+
+## Technologies Used
+- **Wazuh** - SIEM and XDR platform
+- **Kali Linux** - Manager machine
+- **Debian/Ubuntu** - Agent machine
+- **Elastic Stack** - Log storage and search
+- **Kibana** - Data visualization
+
+## Key Learnings
+- How SIEM agents communicate with a manager
+- How to read and investigate security alerts
+- How Wazuh rules and decoders work
+- Real-world SOC monitoring workflow
+
+## Related Projects
+- [Wazuh Nmap Detection](https://github.com/Satz-N-Sentry/wazuh-nmap-detection) 
+  - Custom rules to detect Nmap port scans in real time
+
+## Documentation
+Full setup and configuration steps are in [Wazuh.md](Wazuh.md)
+```
